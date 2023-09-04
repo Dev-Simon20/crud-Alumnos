@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <form class="form">
+        <label class="titulo">Ingrese el Usuario</label>
+        <div>
+            <label for="">Ingrese Nombre</label>
+            <input id="name" class="in" type="text" minlength="5"/>
+        </div>
+        <div>
+            <label for="">Ingrese el apellido</label>
+            <input id="lastName" class="in" type="text" minlength="5"/>
+        </div>
+        <div>
+            <label for="">Ingrese su codigo de empleado</label>
+            <input id="code" class="in" type="number" maxlength="8" minlength="5">
+        </div>
+        <input class="boton" type="submit" value="Agregar">
+    </form>
+
+    <div class="conten">
+        <div class="val">
+            <p>Nombre</p>
+            <p>Apellidos</p>
+            <p>Codigo</p>
+            <p style="background-color: rgb(255, 255, 255);"></p>
+        </div>
+        <div class="conten-body">
+            
+
+        </div>
+
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
